@@ -1,0 +1,26 @@
+table {
+	border-collapse: collapse;
+	width: 800px;
+  }
+  
+  th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f9f9f9;
+  }
+  
+  .footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	background-color: grey;
+}

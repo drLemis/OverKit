@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OverKit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>OverKit</h1>
+    <form id="teamForm">
+        <label for="csvInput">CSV Table:</label>
+        <input type="file" id="csvInput" accept=".csv" required><br><br>
+        
+        <label for="teamCount">Number of Teams:</label>
+        <input type="number" id="teamCount" min="1" required><br><br>
+        
+        <label for="playersPerTeam">Players per Team:</label>
+        <input type="number" id="playersPerTeam" min="1" required><br><br>
+        
+        <button type="submit">Balance Teams</button>
+    </form>
+    <br>
+    <div id="output"></div>
+    <script src="script.js"></script>
+    <div class="footer ">
+        2024.01.17, v1.00
+    </div>
+</body>
+</html>
